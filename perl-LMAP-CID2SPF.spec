@@ -6,6 +6,7 @@
 %define	pdir	LMAP
 %define	pnam	CID2SPF
 Summary:	LMAP::CID2SPF - Caller-ID to SPF record Perl conversion module
+Summary(pl):	LMAP::CID2SPF - modu³ Perla do konwersji Caller-ID na rekord SPF
 Name:		perl-LMAP-CID2SPF
 Version:	0.9
 Release:	1
@@ -29,6 +30,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module may be used to convert Microsoft Caller-ID records to SPF
 records.
 
+%description -l pl
+Ten modu³ mo¿e byæ u¿ywany do konwersji rekordów Microsoft Caller-ID
+na rekordy SPF.
+
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
@@ -41,7 +46,6 @@ records.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/etc/rc.d/init.d
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
