@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	LMAP
-%define	pnam	CID2SPF
+%define		pdir	LMAP
+%define		pnam	CID2SPF
 Summary:	LMAP::CID2SPF - Caller-ID to SPF record Perl conversion module
 Summary(pl):	LMAP::CID2SPF - modu³ Perla do konwersji Caller-ID na rekord SPF
 Name:		perl-LMAP-CID2SPF
