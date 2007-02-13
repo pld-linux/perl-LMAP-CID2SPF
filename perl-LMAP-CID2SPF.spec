@@ -6,7 +6,7 @@
 %define		pdir	LMAP
 %define		pnam	CID2SPF
 Summary:	LMAP::CID2SPF - Caller-ID to SPF record Perl conversion module
-Summary(pl.UTF-8):   LMAP::CID2SPF - moduł Perla do konwersji Caller-ID na rekord SPF
+Summary(pl.UTF-8):	LMAP::CID2SPF - moduł Perla do konwersji Caller-ID na rekord SPF
 Name:		perl-LMAP-CID2SPF
 Version:	0.9
 Release:	1
