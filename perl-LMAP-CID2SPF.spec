@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	LMAP
 %define		pnam	CID2SPF
 Summary:	LMAP::CID2SPF - Caller-ID to SPF record Perl conversion module
